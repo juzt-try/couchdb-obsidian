@@ -16,4 +16,4 @@ ENV PORT=5984
 
 EXPOSE 5984
 
-CMD ["npm", "start"]
+CMD ["node", "server.js"]
