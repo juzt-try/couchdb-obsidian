@@ -11,7 +11,7 @@ RUN npm install
 # Variables de entorno básicas
 ENV COUCHDB_USER=admin
 ENV COUCHDB_PASSWORD=12345678909*
-ENV COUCHDB_SECRET=$(openssl rand -hex 16)
+#ENV COUCHDB_SECRET=$(openssl rand -hex 16)
 ENV PORT=5984
 
 EXPOSE 5984
